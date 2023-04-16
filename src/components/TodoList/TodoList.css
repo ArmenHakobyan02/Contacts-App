@@ -1,0 +1,36 @@
+.TodoList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+table {
+  width: 70%;
+  height: auto;
+  border: solid 1px;
+  border-spacing: 0px;
+  position: relative;
+  background-color: white;
+}
+table th {
+  border: solid 1px;
+  padding: 15px;
+}
+table td {
+  text-align: center;
+  border: solid 1px;
+  position: relative;
+  padding: 10px;
+}
+table td button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+table td button:hover {
+  background-color: green;
+  color: white;
+  border: solid 1px green;
+  outline: none;
+}/*# sourceMappingURL=TodoList.css.map */
