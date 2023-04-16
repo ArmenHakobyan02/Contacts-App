@@ -15,7 +15,7 @@ import { PostRequire, PutRequire } from '../../Require/Require';
 
 const TodoHeader = () => {
     const dispatch = useDispatch()
-    const state = useSelector(state => state.todo.data)
+    
     const [DropAddDiv, SetDropAddDiv] = useState(false)
     const [filterName, setFilterName] = useState("")
     const [btnvalue, setbtnvalue] = useState(false)
