@@ -69,62 +69,6 @@
       "age": "23",
       "categories": "Graphic design",
       "id": 10
-    },
-    {
-      "name": "Nare",
-      "lastName": "Ispiryan",
-      "age": "21",
-      "categories": "Front-End",
-      "id": 11
-    },
-    {
-      "id": 12,
-      "name": "Armen",
-      "lastName": "Hakobyan",
-      "age": "21",
-      "categories": "Fronts"
-    },
-    {
-      "name": "a",
-      "lastName": "a",
-      "age": "233",
-      "categories": "a",
-      "id": 13
-    },
-    {
-      "id": 14,
-      "name": "as",
-      "lastName": "as",
-      "age": "2",
-      "categories": "as"
-    },
-    {
-      "name": "as",
-      "lastName": "as",
-      "age": "2",
-      "categories": "as",
-      "id": 15
-    },
-    {
-      "id": 16,
-      "name": "as",
-      "lastName": "as",
-      "age": "2",
-      "categories": "as"
-    },
-    {
-      "name": "as",
-      "lastName": "as",
-      "age": "2",
-      "categories": "as",
-      "id": 17
-    },
-    {
-      "name": "as",
-      "lastName": "as",
-      "age": "2",
-      "categories": "as",
-      "id": 18
     }
   ]
 }
