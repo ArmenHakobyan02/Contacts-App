@@ -1,30 +1,28 @@
-import React from 'react'
+import { AiOutlineClose } from "react-icons/ai"
 import "./TodoHeader.css"
 
-import { AiOutlineClose } from "react-icons/ai"
-
 import { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import TodoList from '../TodoList/TodoList'
-
 import { PostRequire, PutRequire } from '../../Require/Require';
+
 
 const TodoHeader = () => {
     const dispatch = useDispatch()
-    
+
     const [DropAddDiv, SetDropAddDiv] = useState(false)
     const [filterName, setFilterName] = useState("")
     const [btnvalue, setbtnvalue] = useState(false)
 
-    const [formInput, setFormInput] = useState({ 
-        name: "", 
-        lastName: "", 
-        age: "", 
-        categories: "" 
+    const [formInput, setFormInput] = useState({
+        name: "",
+        lastName: "",
+        age: "",
+        categories: ""
     })
 
     const onChange = ({ target: { name, value } }) => {
@@ -32,11 +30,11 @@ const TodoHeader = () => {
     }
 
     const addNewCard = () => {
-        setFormInput({ 
-            name: "", 
-            lastName: "", 
-            age: "", 
-            categories: "" 
+        setFormInput({
+            name: "",
+            lastName: "",
+            age: "",
+            categories: ""
         })
         SetDropAddDiv(true)
         setbtnvalue(true)

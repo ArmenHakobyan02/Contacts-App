@@ -23,14 +23,7 @@ const TodoReducer = createSlice({
         isSuccses: false,
         errorMessige: ""
     },
-    reducers: {
-        getdateInPost: (state, action) => {
-            state.data.push(action.payload)
-        },
-        deleitinId: (state, action) => {
-            state.data = state.data.filter((el) => el.id !== action.payload)
-        }
-    },
+    reducers: {},
     extraReducers: (builder) => {
         builder
             .addCase(getUsers.pending, (state) => {
@@ -49,4 +42,3 @@ const TodoReducer = createSlice({
 })
 
 export default TodoReducer.reducer
-export const { getdateInPost, deleitinId } = TodoReducer.actions

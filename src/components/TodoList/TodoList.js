@@ -2,7 +2,7 @@ import React from 'react'
 import "./TodoList.css"
 
 import { useDispatch, useSelector } from 'react-redux'
-import { getUsers, } from "../../features/TodoReducer/TodoReducer"
+import { getUsers } from "../../features/TodoReducer/TodoReducer"
 
 import { useEffect } from 'react'
 import { DeleteRequaie } from '../../Require/Require';
@@ -32,8 +32,7 @@ const TodoList = ({ ChangeHandelClick, filterName }) => {
         </thead>
         {todoList && todoList.filter((el) => {
           return filterName.toLowerCase() === "" ? el : el.name.toLowerCase().includes(filterName.toLowerCase())
-        })
-          .map((item) => {
+        }).map((item) => {
             return (
               <tbody key={item.id}>
                 <tr>
